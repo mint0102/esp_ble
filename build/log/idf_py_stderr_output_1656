@@ -1,0 +1,131 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpfnnzt8qi"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpfnnzt8qi': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmp8ieayert"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmp8ieayert': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmp2yvubzym"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmp2yvubzym': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmps6nine_b"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmps6nine_b': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpnctp30ue"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpnctp30ue': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpdtnn9e4b"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpdtnn9e4b': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpv87wym80"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpv87wym80': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpa060tud9"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmpa060tud9': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4200b996: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:781
+0x4200b97a: myTask at D:/ESP-IDF/ble_compatibility_test/main/ble_compatibility_test.c:777
+[0m
+[0;33m0x40028192: __retarget_lock_release_recursive in ROM
+[0m
+[0;33m0x40800001: _vector_table at D:/Espressif/frameworks/esp-idf-v5.3/components/riscv/vectors_intc.S:54
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', 'D:\\ESP-IDF\\ble_compatibility_test\\build\\ble_compatibility_test.elf', '-ex', 'target remote | "D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe" -m esp_idf_panic_decoder --target esp32c6 "C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmp12r8g9ox"', '-ex', 'bt']' returned non-zero exit status 1.
+b"\r\nwarning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\r\nThis normally should not happen, please file a bug report.\r\nerror starting child process 'D:\\Espressif\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe -m esp_idf_panic_decoder --target esp32c6 C:\\Users\\hahuy\\AppData\\Local\\Temp\\tmp12r8g9ox': CreateProcess: No such file or directory\r\nNo stack.\r\n"
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0m

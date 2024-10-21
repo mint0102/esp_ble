@@ -1,0 +1,23 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.portWin": "COM4",
+  "idf.adapterTargetName": "esp32c6",
+  "idf.openOcdConfigs": [
+    "board/esp32c6-builtin.cfg"
+  ],
+  "idf.flashType": "UART",
+  "files.associations": {
+    "freertos.h": "c",
+    "esp_system.h": "c",
+    "esp_gap_ble_api.h": "c",
+    "esp_gatts_api.h": "c",
+    "ble_compatibility_test.h": "c",
+    "esp_bt_device.h": "c",
+    "esp_bt_main.h": "c",
+    "nvs_flash.h": "c",
+    "esp_log.h": "c",
+    "event_groups.h": "c",
+    "esp_bt.h": "c",
+    "led_strip.h": "c"
+  }
+}

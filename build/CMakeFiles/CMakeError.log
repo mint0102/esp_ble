@@ -1,0 +1,8 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/ESP-IDF/ble_compatibility_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Espressif/tools/ninja/1.11.1/ninja.exe cmTC_3dff2 && ninja: error: unknown target 'cmTC_3dff2'
+
+
+
+
